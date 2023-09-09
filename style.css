@@ -1,0 +1,41 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.main-color {
+    height: 8vh;
+    background-color:purple;
+}
+
+.banner {
+    height: 40vh;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(./image/iklan.jpg);
+    background-size: contain;
+    
+}
+
+.navigasi {
+    height: 50px;
+    background-color: aliceblue;
+}
+
+.banner-footer {
+    height: 30vh;
+    background: url(./image/footerBanner.JPG) ;
+    background-size: contain;
+    background-position: 3cap;
+    background-repeat:space;
+}
+
+.hovered-card{
+    transition: .3s;
+}
+
+.hovered-card:hover {
+    transform: scale(1.1);
+}
+
+.footer{
+    background-color: #D3D3D3;
+}
